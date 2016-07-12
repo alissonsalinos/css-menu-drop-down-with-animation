@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-n2a8yr');
+	src:url('fonts/icomoon.eot?#iefix-n2a8yr') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-n2a8yr') format('woff'),
+		url('fonts/icomoon.ttf?-n2a8yr') format('truetype'),
+		url('fonts/icomoon.svg?-n2a8yr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-office:before {
+	content: "\e600";
+}
+.icon-newspaper:before {
+	content: "\e601";
+}
+.icon-film:before {
+	content: "\e60b";
+}
+.icon-camera:before {
+	content: "\e60c";
+}
+.icon-phone:before {
+	content: "\e602";
+}
+.icon-envelope:before {
+	content: "\e60e";
+}
+.icon-location:before {
+	content: "\e60f";
+}
+.icon-calendar:before {
+	content: "\e603";
+}
+.icon-accessibility:before {
+	content: "\e604";
+}
+.icon-play:before {
+	content: "\e60d";
+}
+.icon-play2:before {
+	content: "\e60a";
+}
+.icon-googleplus:before {
+	content: "\e605";
+}
+.icon-facebook:before {
+	content: "\e606";
+}
+.icon-twitter:before {
+	content: "\e607";
+}
+.icon-youtube:before {
+	content: "\e608";
+}
+.icon-youtube2:before {
+	content: "\e609";
+}
+
+
+
+
+@font-face {
+	font-family: 'icomoon2';
+	src:url('fonts/icomoon2.eot?ib51mr');
+	src:url('fonts/icomoon2.eot?#iefixib51mr') format('embedded-opentype'),
+		url('fonts/icomoon2.woff?ib51mr') format('woff'),
+		url('fonts/icomoon2.ttf?ib51mr') format('truetype'),
+		url('fonts/icomoon2.svg?ib51mr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon2';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+	content: "\e9bd";
+}

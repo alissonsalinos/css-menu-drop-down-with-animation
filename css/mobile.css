@@ -1,0 +1,776 @@
+@media (min-width: 300px) {
+    
+   html{
+       margin-top: 0px;
+   }
+    
+    body{
+        margin-top: 0px;
+    }
+    
+    .container{
+	width: 96%;
+	margin: 0 auto;
+	padding:0 0 0 1.2em;
+    float: left;
+    box-sizing: border-box;
+        
+        
+}
+    
+article {
+    margin-top: 160px;
+}
+
+article h1 {
+    font-size: 20px;
+}
+    
+article h2 {
+    font-size: 18px;
+}
+    
+    
+.container .moda h2 {
+    font-size: 18px;
+}
+    
+.container .organicos h2 {
+    font-size: 18px;
+} 
+    
+.container .brinquedos h2 {
+    font-size: 18px;
+} 
+    
+.container .parques h2 {
+    font-size: 18px;
+} 
+    
+.container .pneus h2 {
+    font-size: 18px;
+}
+    
+.container .musica h2 {
+    font-size: 18px;
+}     
+    
+article p {
+    font-size: 16px;
+}
+    
+.mapa_esc{
+    display: none;
+}
+    
+article ul.escritorios li:first-child { 
+    padding: 0 0 0 0;
+    margin-left: -55px;
+    background: #fff;
+    font-size: 14px;
+    width: 100%;
+}
+    
+article ul.escritorios li { 
+    padding: 40px 0 0 0;
+    margin-left: -55px;
+    display: block;
+    background: #fff;
+    font-size: 14px;
+    width: 100%;
+}    
+ 
+.central {
+    display: none;
+}
+    
+.regional {
+    display: none;
+}    
+    
+.header header {
+	margin: 0 auto;
+	width: 100%;
+}
+    
+
+#montadora {
+    display: none;
+}
+
+#parceiros {
+    float: left;
+    width: 100%;
+}
+
+.any-class {
+    margin-left: 20%;
+}
+
+nav{
+	left:20%;
+}
+
+.linguas{
+	left:60%;
+}
+
+
+#moda{
+	margin-top:20px;
+    padding-top: 12em;
+    padding-left: 0px;
+    margin-left:0px;
+       
+}
+    
+    
+
+.noticias {
+    width: 100%;
+}
+
+
+/* ---------- SECTIONS ----------*/
+
+#moda .noticias h2 {
+	font-size:18px;
+
+}
+
+    
+#organicos .noticias h2 {
+	font-size:18px;
+
+}
+
+#brinquedos .noticias h2 {
+	font-size:18px;
+
+}
+
+#musica .noticias h2 {
+	font-size:18px;
+
+}
+
+#parques .noticias h2 {
+	font-size:18px;
+
+}
+
+#pneus .noticias h2 {
+	font-size:18px;
+
+}    
+
+ .not2 h3 {
+	font-size:18px;
+}
+
+a .fotonot2 {
+	width:40%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+    
+/******* box noticia 3 ********/
+
+.not3 {
+	width:100%;
+	float:left;
+    margin-bottom: 2em;
+}
+
+.not3 h3 {
+	font-size:18px;
+	font-weight:500;
+	margin:0 0 8px 0;
+	padding:0px;
+}
+
+.not3 p {
+	font-size:14px;
+	color:#444;
+	margin:0px;
+	padding:0px;
+}
+
+/******* fim box noticia 3 *******/
+
+
+
+/****** box noticia 4 ********/
+
+.not4 {
+	width:45%;
+	float:left;
+	margin-right:5%;
+    margin-bottom: 3em;
+}
+
+
+.not4 h3 {
+	font-size:18px;
+	font-weight:600;
+	margin:0 0 2px 0;
+	padding:0px;
+}
+
+a .fotonot4 {
+	width:100%;
+    height:120px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+    
+.not4a {
+	width:100%;
+	float:left;
+	margin-right:0px;
+	margin-bottom: 2em;
+    
+}    
+    
+
+/*--------- FIM SECTIONS -----------*/
+
+
+
+/* ----- MENU MOBILE ----- */
+
+#menumobile {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 69px;
+    /*width: 100%;*/
+}
+
+.botaomenu:before {
+    font-family: 'icomoon2';
+	content: '\e9bd';
+    display: inline-block;
+	color:#fff;
+	font-size: 1.2rem;
+    padding: .5rem;
+    background-color:#dd174b;
+    margin-right: .0rem;
+    margin-top: .0rem;
+}
+
+.botaomenu {
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    color:#dd174b;
+    display: inline-block;
+    border: 1px #dd174b solid;
+    background-color: #fff;
+    padding: 0rem .0rem 0rem 0rem;
+}
+
+#nav {
+    display: none
+}
+
+#nav ul ul{
+  display: none;
+}
+
+#nav ul {
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 2px 3px 10px 0px rgba(179, 179, 179, 0.5);
+  background-color: #fff;
+}
+
+#nav ul li {
+    list-style: none;
+    margin: 0px;
+    padding: .2em;
+    font-size: 1.1rem;
+    border-bottom: .1em #f1f1f1 dotted;
+}
+
+#nav ul li:before {
+ content:'';
+ font-size: .8em;     
+}
+
+#nav ul li li {
+    padding: .3rem;
+    font-size: .9rem;
+}
+
+.item {
+    font-size: .9rem;
+    padding: .2rem;   
+    border-bottom: 1px #fff solid;
+    font-weight: 300;    
+}
+
+.subitem {
+    font-size: .8rem;
+}
+    
+    
+    
+    
+    
+    nav {
+        display: none;
+    }
+    
+    .slider {
+        display: none;
+    }
+    
+    .eventos {
+        display: none;
+    }
+    
+    #parceiros {
+        display: none;
+    }
+    
+    #menu_footer {
+        display: none;
+    }
+    .linguas {
+        z-index: -1;
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-right: 0px;
+        padding-right: 0px;
+        width: 50%;
+        right: 0; 
+    }
+    
+    .facebook {
+        display: none;
+    }
+    
+    .twitter {
+        display: none;
+    }
+    
+    .googleplus {
+        display: none;
+    }
+    
+    .youtube {
+        display: none;
+    }
+    
+    .header {
+        width: 100%;
+        height: 110px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logotopo {
+        width: 155px;
+        margin-top: -0.1em;    
+    }
+    
+    footer #endereco{
+        width: 100%;
+        font-size:1.4em;
+    }
+    
+    #telefones{
+        display: none;
+    }
+    
+
+    #telefonesmobile {
+        display: inline-block;
+        padding-top: 25px;
+       
+    }
+    
+    
+    #telefonesmobile ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #telefonesmobile ul li {
+	display: block;
+	list-style: none;
+	margin-right: 0px;
+	font-size: 14px;
+	font-weight: 300;
+    margin: 0;
+    padding: 0;    
+}
+
+    #telefonesmobile ul li a {
+	color:#444;
+	text-decoration: none;
+}
+
+    #telefonesmobile ul li:before{
+	font-family: 'icomoon';
+    display: inline-block;
+	content:'\e602';
+	margin-right: 5px;
+	color:#dd174b;
+}
+
+    #telefonesmobile ul li.email:before{
+	font-family: 'icomoon';
+    display: inline-block;
+	content:'\e60e';
+	margin-right: 5px;
+	color:#dd174b;
+}
+    
+    
+    .paginacao {
+	font-size: 11px;
+}
+    
+    
+    footer{
+	padding-bottom: 20px;
+	
+}
+    
+    
+    input[type="text"]{
+	width: 173px;
+
+}
+    
+    .boxrelease{
+	width:100%;
+	float:left;
+	padding-top:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	background:#fff;
+	border:solid 1px #CCCCCC;
+	font-size:12px;
+	border-radius:15px 15px 0px 15px;
+    box-sizing: border-box; 
+    line-height: 13px; 
+}
+    
+    
+    .veiculacao{
+    display: block;
+    margin-bottom: 8px;    
+    }
+    
+    .veiculacaofonte{
+        display: block;
+        padding-top: 10px;
+    }
+    
+    .vejarelease{
+    display: block;
+    margin-top: 5px;    
+    }
+    
+    
+    .baserelease{
+        width: 100%;
+        margin-right: 0px;    
+    }
+    
+    .telefone{
+        
+    }
+    
+    .paganterior{
+        padding: 0 0 0 0;
+    }
+    
+    .pagatual{
+        padding: 0 0 0 0;
+    }
+    
+    .pagproxima{
+        padding: 0 0 0 0;
+    }
+       
+    .tit_noticiasarea{
+        margin-top: 150px;
+    }
+    
+    .moda h2.tit_areamobile {
+        font-size: 1.9em;
+    }
+    
+    .brinquedos h2.tit_areamobile {
+        font-size: 1.9em;
+    }
+    
+    .organicos h2.tit_areamobile {
+        font-size: 1.9em;
+    }
+    
+    .musica h2.tit_areamobile {
+        font-size: 1.9em;
+    }
+    
+    .parques h2.tit_areamobile {
+        font-size: 1.9em;
+    }
+    
+    .pneus h2.tit_areamobile {
+        font-size: 1.9em;
+    }
+    
+    #box_natal{
+        margin-left: 20px;
+    }
+    
+    #box_japan{
+        margin-left: 20px;
+    }
+    
+    #box_autocom{
+        margin-left: 20px;
+    }
+    
+    #box_lazer{
+        margin-left: 20px;
+    }
+    
+    #box_snab{
+        margin-left: 1px;
+    }
+        
+    .sectionmobile {
+    margin-top: 140px;
+    }
+    
+    
+    .not3 {
+	min-height: 100px;
+}
+    .not4 {
+	min-height: 100px;
+}
+    
+    .noticiadentro{
+        display: block;
+    }
+    
+    .formulario{
+        display: block;
+        width: 100%;
+    }
+    
+    .telefone{
+        display: block;
+        width: 100%;
+    }
+    
+
+
+input[type="email"]{
+	width: 250px;
+	height: 45px;
+
+}
+
+.mensagem{
+	width:250px;
+	height:150px;
+
+}
+
+
+    
+    
+.telefone ul li {
+	font-size: 16px;
+}    
+    
+    
+  .telefone ul {
+	margin-left: 5px;
+  }
+    
+
+    .especial {
+        margin-top: 200px;
+    }
+    
+}
+
+@media (min-width: 400px) {
+    
+    #box_natal{
+        margin-left: 7px;
+    }
+    
+    #box_japan{
+        margin-left: 7px;
+    }
+    
+    #box_autocom{
+        margin-left: 7px;
+    }
+    
+    #box_lazer{
+        margin-left: 7px;
+    }
+    
+    #box_snab{
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+/*-----------   500 PIXELS    ------------ */
+
+@media (min-width: 500px) {
+    
+    nav {
+        display: none;
+    
+    }
+    
+     #box_snab{
+        margin-left: 20px;
+    }
+    
+    .slider {
+        display: none;
+    }
+    
+    .logotopo {
+        width: 155px;
+    }
+    
+    .eventos {
+        display: none;
+    }
+    
+    #parceiros {
+        display: none;
+    }
+    
+     #menu_footer {
+        display: none;
+    }
+    
+    .linguas{
+	   left:80%;
+    }
+    
+    .not3 {
+	   width:31%;;
+	   float:left;
+	   margin-right:2%;
+}
+    
+    .not4a {
+	   width:45%;
+	   float:left;
+	   margin-right:5%;
+       vertical-align: text-top;
+       background-repeat: no-repeat;
+} 
+    
+    input[type="text"]{
+	   width: 250px;
+
+} 
+    
+        .not3 {
+	min-height: 230px;
+}
+ 
+                .not4 {
+	min-height: 230px;
+}
+
+    
+}
+
+
+
+
+/*-----------   720 PIXELS    ------------ */
+
+
+@media (min-width: 720px) {
+    nav {
+        display: none;
+    }
+    
+    .logotopo {
+        width: 155px;
+    }
+    
+    
+    .linguas{
+        left: 85%;
+    }
+    
+    .not3 {
+	   width:31%;;
+	   float:left;
+	   margin-right:2%;
+}
+    input[type="text"]{
+	   width: 250px;
+
+}
+    
+    #box_snab{
+        margin-left: 7px;
+    }
+    
+    
+            .not3 {
+	min-height: 230px;
+}
+    
+                .not4 {
+	min-height: 230px;
+}
+    
+    
+    
+      input[type="text"]{
+	width: 330px;
+	height: 45px;
+
+
+}
+
+input[type="email"]{
+	width: 330px;
+	height: 45px;
+
+}
+
+.mensagem{
+	width:330px;
+	height:280px;
+
+}
+
+input[type="submit"]{
+	width: 130px;
+	height: 45px;
+
+}
+
+    
+
+}
